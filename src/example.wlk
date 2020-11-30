@@ -35,8 +35,8 @@ class Maestros inherits Habitante{
 		return super() + midclorianos/1000 + fuerza.potenciaDeSable(sableLuz)
 	}
 	
-	method vivirSuceso(suceso){
-		
+	method viveSuceso(suceso){
+		fuerza.vivirSuceso(suceso,self)
 	}
 }
 
